@@ -86,30 +86,6 @@ ui <- fluidPage(
 # source("VBA_converted.R")
 # source("model_data.R")
 #
-#
-# ########
-# # prep #
-# ########
-#
-# # individual incidents counts by setting and year
-# dat_raw <-
-#   readxl::read_xlsx(
-#     path = here::here("../data", "Birmingham", "incidents2.xlsx"),
-#     sheet = "data")
-#
-# dat <- dat_raw[ ,
-#                 c("year", "setting2", "Total No identified",
-#                   "Total No Screened", "Latent")]
-#
-# names(dat)[names(dat) == "setting2"] <- "setting"
-#
-# # remove incidents with missing data
-# dat <- dat[dat$year %in% 2013:2018, ]
-# dat <- dat[!is.na(dat$`Total No identified`), ]
-# dat <- dat[!is.na(dat$`Total No Screened`), ]
-#
-# dat$Latent[is.na(dat$Latent)] <- 0
-#
 # dat <-
 #   dat %>%
 #   mutate(setting = factor(setting),
@@ -126,16 +102,6 @@ ui <- fluidPage(
 #          screen = `Total No Screened`,
 #          latent = Latent,
 #          incidents = 1)
-#
-#
-# write.csv(dat, file = "data/raw_inc_data_cleaned.csv")
-#
-#
-# ####################
-# # direct summaries #
-# ####################
-# # these are useful also to
-# # check against bootstrap estimates
 #
 # # annual total
 # # total number of individuals within each year and setting
@@ -163,11 +129,6 @@ ui <- fluidPage(
 #     cost_per_id = cost/identified,            #E(cost)/E(screen)
 #     cost_per_screen = cost/screen,
 #     cost_per_ltbi = cost/latent)
-
-
-
-
-
 
 
 
