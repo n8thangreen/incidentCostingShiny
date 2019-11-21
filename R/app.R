@@ -175,9 +175,6 @@ ui <- fluidPage(
 mpgData <- mtcars
 mpgData$am <- factor(mpgData$am, labels = c("Automatic", "Manual"))
 
-dat <- incident_data
-total_year_cost()
-
 # Define server logic to plot various variables against mpg ----
 server <- function(input, output) {
 
