@@ -1,0 +1,12 @@
+name: incidentCostingShiny
+title: incidentCostingShiny
+username:
+account: n8thangreen
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1033852
+bundleId: 2236621
+url: https://n8thangreen.shinyapps.io/incidentCostingShiny/
+when: 1563274824.22312
+asMultiple: FALSE
+asStatic: FALSE
