@@ -56,7 +56,8 @@ ui <- fluidPage(
                   tabPanel("Flow diagram", img(src = 'flowdiagram.png', width = "1000", align = "left")),
                   tabPanel("Plot", plotOutput("plot")),
                   tabPanel("Summary", verbatimTextOutput("summary")),
-                  tabPanel("Table", tableOutput("table"))
+                  tabPanel("Table counts", tableOutput("dat")),
+                  tabPanel("Table costs", tableOutput("datcost"))
       )
 
       # Output: Formatted text for caption ----
@@ -71,37 +72,27 @@ ui <- fluidPage(
 
 
 
-### this is the calculation on the raw data
+### this is the calculation on the raw data ----
 ### to present direct estimates
 
-# library(reshape2)
-# library(dplyr)
-# library(rsample)
-# library(purrr)
-# library(tidyr)
-# library(broom)
-#
-#
-# source("functions.R")
-# source("VBA_converted.R")
-# source("model_data.R")
-#
-# dat <-
-#   dat %>%
-#   mutate(setting = factor(setting),
-#          p_screen = `Total No Screened`/`Total No identified`,          #prop screened of identified for each incident
-#          p_ltbi = `Latent`/`Total No Screened`,
-#          cost = vtotal_year_cost(inc_sample = 1,
-#                                  id_per_inc = `Total No identified`,    #each incident cost
-#                                  screen_per_inc = `Total No Screened`,
-#                                  ltbi_per_inc = `Latent`),
-#          dcost_per_id = cost/`Total No identified`,
-#          dcost_per_screen = cost/`Total No Screened`,
-#          dcost_per_ltbi = cost/Latent,
-#          identified = `Total No identified`,
-#          screen = `Total No Screened`,
-#          latent = Latent,
-#          incidents = 1)
+
+
+dat <-
+  dat %>%
+  mutate(setting = factor(setting),
+         p_screen = `Total No Screened`/`Total No identified`,          #prop screened of identified for each incident
+         p_ltbi = `Latent`/`Total No Screened`,
+         cost = vtotal_year_cost(inc_sample = 1,
+                                 id_per_inc = `Total No identified`,    #each incident cost
+                                 screen_per_inc = `Total No Screened`,
+                                 ltbi_per_inc = `Latent`),
+         dcost_per_id = cost/`Total No identified`,
+         dcost_per_screen = cost/`Total No Screened`,
+         dcost_per_ltbi = cost/Latent,
+         identified = `Total No identified`,
+         screen = `Total No Screened`,
+         latent = Latent,
+         incidents = 1)
 #
 # # annual total
 # # total number of individuals within each year and setting
@@ -160,6 +151,9 @@ server <- function(input, output) {
             col = "#75AADB", pch = 19)
   })
 
+  output$dat <- renderTable(dat[, c("year", "setting", "Total No identified", "Total No Screened", "Latent", "p_screen", "p_ltbi")])
+  output$datcost <- renderTable(dat[, c("year", "setting", "cost", "dcost_per_id", "dcost_per_screen", "dcost_per_ltbi")])
+
 }
 
-shinyApp(ui, server)
+#shinyApp(ui, server)
