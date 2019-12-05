@@ -1,0 +1,207 @@
+year,setting,setting2,Sputum  smear positive,Total No identified,Total No Referred OOC,Total No Screened,Screened with Igra ,No IGRA pos,No IGRA neg,Screened with Mantoux,Total No CXR,CXR NAD,CXR Abnormal,Active TB,Full Treatment,Latent,Date Incident Reported,Date Incident Meeting held,Date of Screening,Case Manager,Status,Date Case Closed,HP Zone No
+2010,education,education,Y /MDR,,,27,,,,,,,,,0,7,,,,CB,Closed,,
+2010,hospital,hospital/clinic/care centre,Y,,,6,,,,,,,,,0,0,,,,CB,Closed,,
+2010,education,education,Y,,,48,,,,,,,,,0,5,,,,JMCL,Closed,,
+2010,education,education,Y,,,13,,,,,,,,,0,0,,,,JMCL,Closed,,
+2010,college,education,Y,,,379,,,,,,,,,0,9,,,,JMCL,Closed,,
+2010,care home,hospital/clinic/care centre,y,,,14,,,,,,,,,0,0,,,,COR,Closed,,
+2010,education,education,Y,,,43,,,,,,,,,0,2,,,,ML,Closed,,
+2010,prison,other,Y,,,14,,,,,,,,,0,0,,,,JMCL,Closed,,
+2011,education,education,N,,,20,,,,,,,,,0,1,,,,BT,Closed,,
+2011,education,education,Y,,,104,,,,,,,,,2,26,,,,CB,Closed,,
+2011,college,education,Y,,,22,,,,,,,,,0,3,,,,JMCL,Closed,,
+2011,hospital,hospital/clinic/care centre,N,,,3,,,,,,,,,0,2,,,,CP,Closed,,
+2011,hosptial,hospital/clinic/care centre,Y,,,12,,,,,,,,,2,6,,,,CP,Closed,,
+2011,restaurant,commercial,Y,,,37,,,,,,,,,0,4,,,,NS,Closed,,
+2011,hospital,hospital/clinic/care centre,Y,,,24,,,,,,,,,0,2,,,,COR,Closed,,
+2011,workplace,factory/workplace,Y/ MDR,,,76,,,,,,,,,0,0,,,,CP,Closed,,
+2011,education,education,Y,,,244,,,,,,,,,5,22,,,,TM,Closed,,
+2011,education,education,Y,,,146,,,,,,,,,0,7,,,,SR,Closed,Sep-11,
+2011,college,education,N,,,116,,,,,,,,,0,5,,,,BT,Closed,,
+2011,college,education,Y,,,26,,,,,,,,,2,5,,,,CB,Closed,,
+2011,college,education,Y,,,1653,,,,,,,,,2,89,,,,NS,Closed,,
+2011,education,education,Y,,,21,,,,,,,,,0,2,,,,COR,Closed,,
+2011,care home,hospital/clinic/care centre,Y,,,45,,,,,,,,,0,0,,,,NW,Closed,,
+2011,college,education,N,,,27,,,,,,,,,0,7,,,,CB,Closed,,
+2011,college,education,Y,,,7,,,,,,,,,1,0,,,,JMCL,Closed,,
+2011,care home,hospital/clinic/care centre,N,,,25,,,,,,,,,0,4,,,,DS,Closed,,
+2011,care home,hospital/clinic/care centre,N,,,31,,,,,,,,,1,0,,,,CP,Closed,,
+2011,hospital,hospital/clinic/care centre,Y,,,8,,,,,,,,,0,6,,,,DS,Closed,,
+2011,college,education,Y,,,22,,,,,,,,,0,0,,,,BT,Closed,,
+2012,education,education,Y MDR,,,269,,,,,,,,,0,7,Sept,,,JP,Closed,Apr-13,
+2012,college,education,Y,,,44,,,,,,,,,1,1,Nov,,,NW,Closed,,
+2012,education,education,N,,,5,,,,,,,,,0,0,May,,,JMCL,Closed,,
+2012,medical centre,hospital/clinic/care centre,N,,,34,,,,,,,,,0,2,May,,,JMCL,Closed,,
+2012,church,other,Y,,,73,,,,,,,,,4,9,Nov,,,ML,Closed,Jun-13,
+2012,college,education,N,,,28,,,,,,,,,0,1,June,,,JMCL,Closed,,
+2012,education,education,Y,,,35,,,,,,,,,1,6,February,,,NS,Closed,,
+2012,education,education,Y,,,64,,,,,,,,,0,4,January,,,CP,Closed,,
+2012,factory/workplace,factory/workplace,Y,,,18,,,,,,,,,0,4,May,,,NW,Closed,,
+2012,factory/workplace,factory/workplace,N,,,3,,,,,,,,,0,2,May,,,NW,Closed,,
+2012,restaurant,commercial,N,,,31,,,,,,,,,0,18,Oct,,,NW,Closed,,
+2012,restaurant,commercial,Y,,,36,,,,,,,,,2,5,May,,,VBR,Closed,,
+2012,college,education,Y,,,19,,,,,,,,,1,3,June,,,NW,Closed,,
+2012,hospital,hospital/clinic/care centre,Y,,,25,,,,,,,,,0,0,Oct ,,,CB,Closed,,
+2012,education,education,Y,,,139,,,,,,,,,1,3,June,,,NS,Closed,May-13,
+2012,college,education,N,,,12,,,,,,,,,0,0,,,,BT,Closed,,
+2012,college,education,N,,,28,,,,,,,,,0,0,Sept,,,LJ,Closed,,
+2012,college,education,Y,,,27,,,,,,,,,0,3,March,,,BT,Closed,,
+2012,college,education,Y MDR,,,50,,,,,,,,,0,0,April,,,JMCL,Closed,,
+2012,education,education,Y,,,58,,,,,,,,,0,8,January,,,NS,Closed,,
+2012,education,education,Y,,,11,,,,,,,,,0,3,February,,,JMCL,Closed,,
+2012,care home,hospital/clinic/care centre,Y,,,42,,,,,,,,,1,2,Nov,,,CP,Closed,Jun-13,
+2012,other,other,Y,,,52,,,,,,,,,1,1,Oct ,,,VBR,Closed,Jul-13,
+2012,other,other,Y,,,26,,,,,,,,,1,7,Oct ,,,VBR,Closed,Jul-13,
+2012,other,other,Y,,,2,,,,,,,,,0,0,Oct ,,,VBR,Closed,Jul-13,
+2012,education,education,Y,,,65,,,,,,,,,0,3,July,,,LN,Closed,,
+2013,hotel,commercial,N,41,,41,,,,,,,,,0,0,Jan,,,CP,Closed,Jul-13,
+2013,care home,hospital/clinic/care centre,N,12,,12,,,,,,,,,0,0,Jan,,,NS,Closed,Jul-13,
+2013,care home,hospital/clinic/care centre,N,12,,12,,,,,,,,,0,0,Jan,,,NS,Closed,May-13,
+2013,college,education,Y,9,,9,,,,,,,,,0,0,Jan,,,NS,Closed,,
+2013,education,education,N,44,,44,,,,,,,,,0,0,Mar,,,NS,Closed,May-13,
+2013,restaurant,commercial,Y,72,,72,,,,,,,,,1,12,Mar,,,NW,Closed,Jun-13,
+2013,college,education,Y,35,,27,,,,,,,,,0,2,Apr,,,JMC,Closed,Jun-13,
+2013,college,education,N,7,,7,,,,,,,,,0,0,Apr,,,VBR,Closed,May-13,
+2013,college,education,Y,26,,15,,,,,,,,,,2,May,,,LJ,Closed,Aug-13,
+2013,college,education,Y,93,,93,,,,,,,,,0,3,May,,,TM,Closed,Aug-13,
+2013,homeless shelter,other,Y,8,,8,,,,,,,,,0,2,April,,,JMC,Closed,Jul-13,
+2013,factory/workplace,factory/workplace,N,22,,22,,,,,,,,,0,0,May,,,BT,Closed,Aug-13,
+2013,shop,commercial,Y,9,,7,,,,,,,,,0,0,May,,,LJ,Closed,Aug-13,
+2013,workplace/offices,factory/workplace,Y,24,,24,,,,,,,,,0,3,May,,,NW,Closed,Jul-13,
+2013,college,education,N,41,,34,,,,,,,,,0,0,June,,,VB,Closed,Aug-13,
+2013,college,education,Y,17,,13,,,,,,,,,0,0,June,,,NS,Closed,Aug-13,
+2013,college,education,Y,29,,29,,,,,,,,,0,3,June,,,VB,Closed,Jul-13,
+2013,factory/workplace,factory/workplace,Y,16,,7,,,,,,,,,,,June,,,JMC,Closed,Jul-13,
+2013,college,education,y,16,,15,,,,,,,,,0,0,June,,,LN,Closed,Sep-13,
+2013,education,education,N,5,,5,,,,,,,,,0,0,July,,,BT,Closed,Dec-13,
+2013,factory/workplace,factory/workplace,Y,4,,4,,,,,,,,,0,1,Aug,,,LJ,Closed,Oct-13,
+2013,college,education,Y,8,,8,,,,,,,,,0,0,Aug,,,TM,Closed,Oct-13,
+2013,factory/workplace,factory/workplace,Y,15,,10,,,,,,,,,0,0,Aug,,,ML,Closed,Sep-13,
+2013,factory/workplace,factory/workplace,Y,7,,3,,,,,,,,,0,0,NOV,,,NW,Closed,Feb-14,
+2013,college,education,Y,101,,95,,,,,,,,,0,0,Sept,,,JP,Closed,Nov-13,
+2013,care home,hospital/clinic/care centre,Y,6,,2,,,,,,,,,0,1,Oct,,,NW,Closed,Nov-13,
+2013,casino,commercial,Y,105,,105,104,,,0,,,,,0,4,Sept,,,LN,Closed,Dec-13,
+2013,education,education,Y,85,,72,72,,,0,,,,,,,Nov,,,LJ,Closed,Dec-13,
+2013,college,education,Y,63,,53,52,,,1,,,,,0,1,Nov,,,JMC,Closed,Mar-14,
+2013,education,education,Y,5,,2,2,,,0,,,,,0,0,Dec,,,LN,Closed,Jan-14,
+2014,college,education,,400,,352,352,,,,0,,,,2,55,,,,HK,,Mar-15,
+2014,homeless shelter,other,,10,,9,9,,,0,,,,,,,May,,,HK,Closed,Jun-14,
+2014,homeless shelter,other,,7,,7,6,,,0,,,,,,,June,,,HK,Closed,Jun-14,
+2014,homeless shelter,other,,7,,7,7,,,0,,,,,0,,June,,,HK,Closed,Jun-14,
+2014,homeless shelter,other,,2,,2,2,,,,,,,,,,,,,HK,Closed,,
+2014,homeless shelter,other,,17,,,,,,,,,,,,4,Sep-14,,,HK,Closed,,
+2014,Mobile X-Ray Unit,hospital/clinic/care centre,,13,2,11,0,,,0,,,,,,,Jul-14,,,HK,Closed,,
+2014,college,education,Y,92,,82,82,,,,,,,,2,4,Jan,,,JMC,Closed,May-14,
+2014,bank,factory/workplace,Y,8,,7,7,,,0,,,,,0,0,Jan,,,LN,Closed,Apr-14,
+2014,college,education,Y,13,,2,,,,1,,,,,0,0,Jan,,,LN,Closed,Jun-14,
+2014,factory/workplace,factory/workplace,Y,20,,16,7,,,3,,,,,,1,Jan,,,VBR,Closed,Apr-14,
+2014,factory/workplace,factory/workplace,Y,,,,,,,,,,,,,,Feb,,,VBR,Closed,Apr-14,OOC
+2014,college,education,Y,16,,14,14,,,0,,,,,,2,Feb,,,VB,Closed,May-14,
+2014,workplace,factory/workplace,Y,4,,1,1,,,0,,,,,0,0,Feb,,,NW,Closed,May-14,143572
+2014,health centre,hospital/clinic/care centre,Y,,0,0,0,,,0,0,,,,,,Mar,,,JP,Closed,May-14,
+2014,college,education,,400,,352,352,,,0,,,,,2,55,Apr,,,HK,Closed,Mar-15,
+2014,office/workplace,factory/workplace,Y,21,0,20,20,,,0,,,,,0,0,22nd April,21/05/2014,03/06/2014,VB,Closed,Jul-14,
+2014,community centre,other,N,9,0,7,0,,,2,,,,,0,0,June,,,ML,Closed,Aug-14,
+2014,hotel,commercial,Y,,0,0,0,,,0,0,,,,,,May,,,LN,Closed,Jun-14,
+2014,homeless shelter,other,,10,,9,9,,,0,,,,,,,May,,,HK,Closed,Jun-14,
+2014,homeless shelter,other,,7,,7,6,,,0,,,,,,,June,,,HK,Closed,Jun-14,
+2014,homeless shelter,other,,7,,7,7,,,0,,,,,0,,June,,,HK,Closed,Jun-14,
+2014,homeless shelter,other,,2,,2,2,,,,,,,,,,,,20/11/2014,HK,Closed,,
+2014,education,education,Y,134,0,90,85,,,0,5,,,,1,5,17th June,09/07/2014,31/07/2014,CP,Closed,Apr-15,145539
+2014,college,education,Y,33,0,24,,,,,,,,,,1,20th June,14/07/2014,07/08/2014,JMC,Closed,Mar-15,
+2014,college,education,N,60,,34,17,,,,17,,,,,,28th July,,,LN,Closed,Mar-15,145858
+2014,factory/workplace,factory/workplace,Y,38,0,38,24,,,0,,,,,0,1,6th Aug,13-Aug,24/09/2014,JP,Closed,Dec-14,809743
+2014,doctors,hospital/clinic/care centre,Y,7,0,7,7,,,0,,,,,0,0,,11-Sep,,LN,Closed,Feb-15,792030
+2014,restaurant,commercial,,13,0,12,5,,,0,,,,,1,1,11th Sept,,,CP,Closed,Mar-15,779295
+2014,education,education,Y,48,0,41,41,,,0,0,,,,0,4,Sep-14,,06/11/2014,VB,Closed,Jun-15,829518
+2014,homeless shelter,other,N,32,0,28,15,,,0,13,,,,0,1,,08-Sep,,TM,Closed,Oct-14,771270
+2014,sexual health service,hospital/clinic/care centre,,17,,,,,,,,,,,,4,Sep-14,,,HK,Closed,,
+2014,homeless shelter,other,,99,,63,58,,,,5,,,,,2,Oct-14,,,VB,Closed,Jul-14,147427
+2014,homeless shelter,other,Y,,,,,,,,,,,,,,Aug-14,,,LN,Closed,,146500
+2014,education,education,Y,111,0,86,76,,,,,,,,2,,,,10/12/2014,BT,Closed,Mar-15,839366
+2014,office/workplace,factory/workplace,N,17,0,12,1,,,0,,,,,0,0,15th Oct,04-Nov,,TM,Closed,Mar-15,148154
+2014,education,education,Y,,0,0,0,,,0,0,,,,0,,,,,VB,Closed,Jan-15,
+2014,care home,hospital/clinic/care centre,,,0,0,0,,,0,0,,,,0,,,,,VB,Closed,Jan-15,
+2015,pharmacy,commercial,N,5,0,5,5,,,0,,,,0,,0,06.10.14,,Feb-15,NW,Closed,Mar-15,820586
+2015,college,education,Y,23,,16,16,2,14,0,1,1,,0,,0,,,Mar-15,JMcL,Closed,Apr-15,151706
+2015,bank,factory/workplace,Y,10,0,8,,0,8,,,,,,,,,,Apr-15,TM,Closed,Jul-15,152833
+2015,hospital,hospital/clinic/care centre,Y,15,2,7,4,0,4,,2,2,0,0,,0,,,Apr-15,VB/HK,Ongoing,,
+2015,education,education,Y,34,0,31,31,0,31,0,0,0,0,0,,0,,Mar-15,May-15,JP,Closed,Jul-15,153725
+2015,prison,other,Y,6,0,2,2,0,2,0,0,0,0,0,,0,07/04/2015,00C,Jun-15,JMcL,Closed,May-16,
+2015,care home,hospital/clinic/care centre,N,6,,6,6,1,5,,,,,0,,1,,,,DH,Closed,Dec-15,944559
+2015,education,education,N,9,0,9,2,,2,7,0,,,,,,,,Nov-15,DH,Closed,Dec-15,962679
+2015,office/workplace,factory/workplace,Y,14,,14,14,2,12,,,,,,,2,,,Oct-15,ML,Closed,Nov-15,213521
+2015,education,education,Y,37,5,24,24,2,22,0,0,0,0,0,,1,,,Oct-15,LN,Closed,Apr-16,156676
+2015,shop,commercial,N,9,0,9,9,0,9,0,0,0,0,0,,0,,,Oct-15,JP,Closed,Nov-15,992959
+2015,shop,commercial,Y,3,,3,2,1,1,0,,,,,,1,,,,CP,Closed,Nov-15,
+2015,education,education,Y,1272,0,1223,1215,54,1161,0,1,1,0,2,,55,00/11/2016,19/11/2015,25/04/2016,LJ,Closed,Jul-16,159058
+2015,theatre,commercial,Y,37,0,26,26,3,23,0,0,0,0,0,,3,,,Oct-15,CP,Closed,Dec-15,157107
+2015,education,education,Y,4,,3,3,1,2,,,,,,,1,,,,LJ,Closed,Jan-16,382617
+2015,factory/workplace,factory/workplace,Y,55,0,53,53,0,52,0,0,0,0,0,,0,09/07/2015,,18/08/2015,BT,Closed,01/04/2016,153769
+2015,hotel,commercial,Y,11,1,6,3,0,6,0,0,0,0,0,,0,03/11/2016,20/11/2016,10/12/2016,JMcL,Closed,Apr-16,158366
+2015,hospital,hospital/clinic/care centre,Y,10,6,4,3,0,3,1,0,0,0,0,,0,05/11/2015,04/02/2016,,DH,Closed,Feb-16,1032747
+2015,community centre,other,,49,0,49,0,,,0,7,,,,0,0,Oct-15,,,ML,Closed,Oct-15,
+2016,college,education,N,18,0,15,15,3,12,0,0,0,0,0,,3,,05/02/2016,Mar-16,ML,Closed,Apr-16,
+2016,hospital/medical practice,hospital/clinic/care centre,Y,16,1,14,14,3,11,0,0,0,0,0,,2,,,,ML,Closed,Apr-16,159367
+2016,care home,hospital/clinic/care centre,Y,61,1,45,45,5,40,0,0,0,0,0,,1,,,Feb-16,LN,Closed,Apr-16,
+2016,college,education,N,20,0,17,17,1,16,0,0,0,0,0,,1,Mar-16,,21/03/2016,VBR,Closed,May-16,
+2016,nursery,other,N,161,10,156,26,1,25,117,0,0,0,0,,7,Apr-16,,May-16,BT,Closed,Aug-16,
+2016,factory/workplace,factory/workplace,N,5,0,5,5,0,5,0,0,0,0,0,,0,Feb-16,,Apr-16,BT,Closed,Apr-16,162049
+2016,office/workplace,factory/workplace,Y,6,0,6,6,1,5,0,0,0,0,0,,1,Apr-16,,May-16,NW,Closed,May-16,1105218
+2016,shop,commercial,Y,8,0,8,6,0,6,0,0,0,0,0,,0,Apr-16,25/04/2016,14/07/2016,LN,Closed,Aug-16,164438
+2016,college,education,Y,65,0,63,63,1,62,0,0,0,0,0,,1,Apr-16,22/04/2016,May-16,DH,Closed,Jun-16,164240
+2016,office/workplace,factory/workplace,Y,5,1,4,0,0,0,0,4,0,0,0,,0,Dec-15,,,VBR,Closed,Aug-16,
+2016,office/workplace,factory/workplace,N,8,0,5,5,1,4,0,0,0,0,0,,1,Jul-16,26/07/2016,Jul-16,VB ,Closed,Oct-16,
+2016,office/workplace,factory/workplace,Y,15,1,13,13,4,9,0,0,0,0,0,,2,Jul-16,,13/09/2016,JP,Closed,Nov-16,
+2016,college,education,N,33,0,24,24,0,24,0,0,0,0,0,,0,Jun-16,,28/06/2016,BT,Closed,Aug-16,
+2016,office/workplace,factory/workplace,N,4,0,4,4,0,4,0,0,0,0,0,,0,Sep-16,06/09/2016,Sep-16,HK,Closed,Oct-16,166235
+2016,factory/workplace,factory/workplace,Y,54,0,54,48,14,24,0,0,0,0,1,,9,Sep-16,06/09/2016,04/10/2016,JML,Closed,Feb-17,1161808
+2016,college,education,Y,38,1,19,17,1,16,0,0,0,0,,,,Oct-16,04/10/2016,24/11/2016,LJ,Closed,Feb-17,169387
+2016,office/workplace,factory/workplace,Y,96,32,64,64,7,59,0,0,0,0,0,,7,Jan-17,,,LN,Closed,Sep-17,170317
+2016,education,education,Y,28,0,19,19,1,18,0,0,0,0,0,,0,Nov-16,08/11/2016,12/01/2016,NW,Closed,Jun-17,170337
+2016,farm,other,N,9,0,9,8,1,7,1,0,0,0,,,,Dec-16,,Various,LN,Closed,Feb-17,
+2016,prison,other,Y,23,2,20,20,3,17,0,0,0,0,0,,1,Jun-16,,29/11/2016,JML,Closed,Sep-17,
+2016,factory/workplace,factory/workplace,Y,2,0,2,2,1,1,0,0,0,0,0,,1,Mar-16,17/03/2016,14/02/2017,LN,Closed,Mar-17,163242
+2017,care home,hospital/clinic/care centre,Y,3,0,3,3,0,3,0,0,0,0,0,,0,15/12/2016,20/12/2016,,DH,Closed,Feb-17,
+2017,college,education,Y,20,0,12,12,2,10,0,0,0,0,0,,1,16/11/2016,09/11/2016,Jan-17,NW,Closed,Mar-17,
+2017,factory/workplace,factory/workplace,Y,5,0,3,3,0,3,0,0,0,0,0,,0,03/01/2017,,Jan-17,JML,Closed,Mar-17,
+2017,education,education,Y,8,0,6,6,0,6,0,0,1,0,0,,0,Jan-17,,01/03/2017,LN,Closed,Mar-17,17
+2017,office/workplace,factory/workplace,,23,0,15,15,2,14,0,0,0,0,0,,2,Mar-17,,Mar-17,HK,Closed,Sepr 17,
+2017,shop,commercial,Y,4,0,1,1,0,10,0,0,0,0,0,,0,Nov-16,,Mar-17,LN,Closed,Mar-17,171424
+2017,college,education,Y,24,0,11,11,2,8,0,0,0,0,0,,2,Nov-16,,Mar-17,VB,Closed,Aug-17,
+2017,college,education,Y,70,0,11,11,0,0,0,0,0,0,0,,0,Feb-17,13/03/2017,02/05/2017,VB,Closed,Aug-17,175431
+2017,factory/workplace,factory/workplace,Y,390,16,247,243,33,210,1,3,3,0,1,,21,Feb-17,,May-17,JML,Closed,Oct-17,1161808
+2017,college,education,y,108,0,104,104,1,103,0,0,0,0,0,,1,Feb-17,,Mar-17,NW,Closed,Jun-17,
+2017,shop,commercial,Y,6,0,6,6,1,5,0,0,0,0,0,,1,May-17,,,RC,Closed,Aug-17,
+2017,prison,other,Y,37,11,16,16,3,13,0,0,0,0,0,,3,Jan-17,06/01/2017,,JML,Closed,Oct-18,
+2017,shop,commercial,Y,2,0,1,0,0,1,0,1,1,,0,,0,Jun-17,,14/08/2017,LN,Closed,Sep-17,
+2017,factory/workplace,factory/workplace,Y,14,0,13,13,0,13,0,0,0,0,0,,0,Jun-17,20/06/2017,Aug-17,MW,Closed,Sep-17,
+2017,office/workplace,factory/workplace,Y,18,0,11,11,0,11,0,0,0,0,0,,0,Jun-17,26/06/2017,24/08/2017,LN,Closed,Sep-17,
+2017,college,education,Y,120,0,102,102,0,0,0,0,0,0,0,,0,Jul-17,,04/10/2017,SK,Closed,Nov-17,1161808
+2017,college,education,Y,25,0,16,16,1,14,0,0,0,0,0,,0,Aug-17,Aug-17,04/10/2017,JP  ,Closed,Jan-18,
+2017,care home,hospital/clinic/care centre,Y,52,0,41,35,0,35,6,0,0,0,0,,0,Sep-17,Aug-17,11/09/2017,NW,Closed,Nov-17,
+2017,office/workplace,factory/workplace,Y,9,0,3,3,0,3,0,0,0,0,0,,0,Aug-17,,03/10/2017,NW,Closed,Nov-17,
+2017,education,education,Y,18,2,10,10,0,10,0,0,0,0,0,,0,Aug-17,,09/11/2017,NW,Closed,Dec-17,
+2017,college,education,Y,39,0,38,38,1,37,0,0,0,0,0,,1,Oct-17,,08/01/2018,LJ,Closed,Mar-18,
+2017,nursery,other,Y,104,0,90,15,1,14,75,0,0,0,0,,9,Dec-17,Dec-17,20/12/2017,HK,Closed,Aug-18,
+2017,shop,commercial,Y,4,0,4,4,0,4,0,0,0,0,0,,0,Nov-17,,,NW,Closed,,
+2017,care home,hospital/clinic/care centre,Y,25,0,23,17,1,16,0,6,6,0,0,,1,,,03/01/2018,BT,Closed,Mar-18,
+2017,college,education,Y,211,0,141,141,2,139,0,0,0,0,0,,1,Nov-17,06/11/2017,Jan-18,BT,Closed,May-18,
+2017,college,education,Y,139,0,126,126,3,120,0,0,0,0,0,,1,Nov-17,06/11/2018,18/01/2018,BT,Closed,May-18,
+2018,shop,commercial,Y,13,1,11,11,0,11,0,0,0,0,0,,0,01/12/2017,,Feb-18,NW,Closed,Mar-18,
+2018,hospital,hospital/clinic/care centre,,4,0,4,4,0,4,0,0,0,0,0,,0,18/11/2017,09/03/2018,Apr-18,HK,Closed,May-18,
+2018,prison,other,Y,57,2,15,15,2,13,0,0,0,0,0,,1,01/05/2017,,Ap 18,JML,Closed,Oct-18,
+2018,college,education,Y,186,0,152,152,3,148,0,0,0,0,0,,3,30/02/2018,30/04/2018,01/05/2018,NW,Closed,Sep-18,
+2018,college,education,N,23,0,17,14,2,14,0,1,1,0,0,,,Dec-17,14/03/2018,Jun-18,KL,Open,,
+2018,factory/workplace,factory/workplace,N,9,0,6,6,1,5,0,0,0,0,0,,10,,31/05/2018,Jul-18,RC,Closed,Aug-18,
+2018,police,other,Y,,0,,,,,,,,,,,,,,,BT,Open,,
+2018,care home,hospital/clinic/care centre,Y,32,0,,,,,,,,,,,,,,,NW,Open,,
+2018,office/workplace,factory/workplace,Y,39,2,35,35,3,32,0,0,0,0,0,,2,,25/06/2018,Aug-18,JML,Closed,Sep-18,
+2018,factory/workplace,factory/workplace,N,14,0,12,14,2,10,0,0,0,0,0,,2,,,May-18,NW,Closed,Sep-18,
+2018,church,other,Y,15,0,,,,,,,,,,,,,,,,,,
+2018,college,education,N,,,,,,,,,,,,,,,,01/10/2018,VB,Open,,
+2018,college,education,N,,,,,,,,,,,,,,,,,VB,Open,,
+2018,factory,factory/workplace,Y,,,,,,,,,,,,,,,,Oct-18,ML,Open,,
+2018,education,education,Y,,,,,,,,,,,,,,,,01/10/2018,SR,Open,,
+2018,hospital/clinic,hospital/clinic/care centre,Y,20,0,20,11,1,10,0,11,0,0,,,,Jul-18,,,,Closed,Oct-18,
+2018,college,education,Y,,,,,,,,,,,,,,Apr-18,Sep-18,,BT,Open,,

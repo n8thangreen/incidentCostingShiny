@@ -11,10 +11,10 @@ require(broom)
 # source("R/VBA_converted.R")
 # source("scripts/model_data.R")
 
+load(file = "data/dat.RData")
 
 
 # VBA_converted -----------------------------------------------------------
-
 
 #' ADJUSTED_SALARY
 #'

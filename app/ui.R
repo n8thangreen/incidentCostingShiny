@@ -10,11 +10,20 @@ ui <- fluidPage(
     # Sidebar panel for inputs ----
     sidebarPanel(
 
+      # Input: Select a file ----
+      fileInput("file1", "Choose CSV File",
+                multiple = TRUE,
+                accept = c("text/csv",
+                           "text/comma-separated-values, text/plain",
+                           ".csv")),
+
+      # Horizontal line ----
+      tags$hr(),
+
       numericInput(label = "Number of incidents",
                    value = 1,
                    inputId = "nincid"),
 
-      # Input: Selector for variable to plot against mpg ----
       selectInput("site", "Site:",
                   c("School" = "school",
                     "Workplace" = "workplace",
@@ -38,10 +47,6 @@ ui <- fluidPage(
       radioButtons(inputId = "location", label = "Location:",
                    choices = c("London" = "london", "Birmingham" = "birmingham"))
 
-
-      # Input: Checkbox for whether outliers should be included ----
-      # checkboxInput("outliers", "Show outliers", TRUE)
-
     ),
 
     # Main panel for displaying outputs ----
@@ -53,7 +58,8 @@ ui <- fluidPage(
                   tabPanel("Plot", plotOutput("plot")),
                   tabPanel("Summary", verbatimTextOutput("summary")),
                   tabPanel("Table counts", tableOutput("dat")),
-                  tabPanel("Table costs", tableOutput("datcost"))
+                  tabPanel("Table costs", tableOutput("datcost")),
+                  tabPanel("Uploaded data", tableOutput("contents"))
       )
 
       # Output: Formatted text for caption ----

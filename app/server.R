@@ -2,7 +2,6 @@
 ### this is the calculation on the raw data ----
 ### to present direct estimates
 
-
 dat <-
   dat %>%
   mutate(setting = factor(setting),
@@ -75,6 +74,17 @@ server <- function(input, output) {
             data = mpgData,
             outline = input$outliers,
             col = "#75AADB", pch = 19)
+  })
+
+  output$contents <- renderTable({
+
+    # input$file1 will be NULL initially. After the user selects
+    # and uploads a file, head of that data file by default,
+    # or all rows if selected, will be shown.
+    # https://shiny.rstudio.com/articles/upload.html
+
+    req(input$file1)
+    read.csv(input$file1$datapath)
   })
 
   output$dat <- renderTable(dat[, c("year", "setting", "Total No identified", "Total No Screened", "Latent", "p_screen", "p_ltbi")])
