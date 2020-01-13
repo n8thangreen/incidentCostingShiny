@@ -1,35 +1,38 @@
 
+# TB contact investigation costing R Shiny app
+
+[![Build
+Status](https://travis-ci.org/Health-Economics-in-R/CEdecisiontree.svg?branch=master)](https://travis-ci.org/)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/Health-Economics-in-R/CEdecisiontree?branch=master&svg=true)](https://ci.appveyor.com/project/)
+[![Coverage
+status](https://codecov.io/gh/Health-Economics-in-R/CEdecisiontree/branch/master/graph/badge.svg)](https://codecov.io/github/)
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# incidentCostingShiny
+Requests and comments welcome; please use
+[Issues](https://github.com/n8thangreen/incidentCostingShiny/issues).
 
-<!-- badges: start -->
+## Installing incidentCostingShiny
 
-<!-- badges: end -->
-
-The goal of incidentCostingShiny is to …
-
-## Installation
-
-You can install the released version of incidentCostingShiny from
-[CRAN](https://CRAN.R-project.org) with:
+To install the development version from github:
 
 ``` r
-install.packages("incidentCostingShiny")
+library(devtools)
+install_github("n8thangreen/incidentCostingShiny")
 ```
 
-And the development version from [GitHub](https://github.com/) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("n8thangreen/incidentCostingShiny")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+Then, to load the package, use:
 
 ``` r
 library(incidentCostingShiny)
-## basic example code
 ```
+
+## Motivation
+
+## Calculation
+
+## License
+
+GPL-3 ©
