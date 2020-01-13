@@ -54,11 +54,20 @@ ui <- fluidPage(
 
       # Output: Tabset w/ plot, summary, and table ----
       tabsetPanel(type = "tabs",
-                  tabPanel("Flow diagram", img(src = 'flowdiagram.png', width = "1000", align = "left")),
-                  tabPanel("Plot", plotOutput("plot")),
+                  tabPanel("Flow diagram",
+                           img(src = 'flowdiagram.png', width = "1000", align = "left")),
+                  tabPanel("Plot",
+                           downloadButton("save_plot", "Save Image"),
+                           plotOutput("plot")),
                   tabPanel("Summary", verbatimTextOutput("summary")),
-                  tabPanel("Table counts", tableOutput("dat")),
-                  tabPanel("Table costs", tableOutput("datcost")),
+                  tabPanel("Table counts",
+                           downloadButton("save_counts",
+                                          "Save Table"),
+                           tableOutput("dat")),
+                  tabPanel("Table costs",
+                           downloadButton("save_costs",
+                                          "Save Table"),
+                           tableOutput("datcost")),
                   tabPanel("Uploaded data", tableOutput("contents"))
       )
 

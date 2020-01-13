@@ -87,8 +87,41 @@ server <- function(input, output) {
     read.csv(input$file1$datapath)
   })
 
-  output$dat <- renderTable(dat[, c("year", "setting", "Total No identified", "Total No Screened", "Latent", "p_screen", "p_ltbi")])
-  output$datcost <- renderTable(dat[, c("year", "setting", "cost", "dcost_per_id", "dcost_per_screen", "dcost_per_ltbi")])
+  ##TODO: what should the  if(!null bit be be??
+  ## doesnt save anything atm
+  output$savePlot <- shiny::downloadHandler(
+    filename = function() {"Plot.png"}, #nolint
+    content = function(file) {
+      if (!is.null(plot_data)){
+        png(file)
+        print(plot(plot_data))
+        dev.off()
+      }
+    }
+  )
+
+  output$save_counts <- shiny::downloadHandler(
+    filename = function() {"output_counts.csv"},
+    content = function(file) {
+      if (!is.null(output$dat)) {
+        write.csv(output$dat, file, row.names = FALSE)
+      }
+    }
+  )
+
+  output$save_costs <- shiny::downloadHandler(
+    filename = function() {"output_costs.csv"},
+    content = function(file) {
+      if (!is.null(output$datcost)) {
+        write.csv(output$datcost, file, row.names = FALSE)
+      }
+    }
+  )
+
+  output$dat <- renderTable(
+    dat[, c("year", "setting", "Total No identified", "Total No Screened", "Latent", "p_screen", "p_ltbi")])
+  output$datcost <- renderTable(
+    dat[, c("year", "setting", "cost", "dcost_per_id", "dcost_per_screen", "dcost_per_ltbi")])
 
 }
 
