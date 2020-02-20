@@ -1,82 +1,96 @@
 library(shiny)
+library(shinyBS)
+library(shinyLP)
+library(shinythemes)
 
-ui <- fluidPage(
+# ui <-
 
-  titlePanel("TB incident costing"),
+shinyUI(
+  fluidPage(
 
-  # Sidebar layout with input and output definitions ----
-  sidebarLayout(
+    navbarPage("Menu",
 
-    # Sidebar panel for inputs ----
-    sidebarPanel(
+               tabPanel("Home", icon = icon("home"),
+                        jumbotron("TB incident costing", "text to show", buttonLabel = "Click Me")),
 
-      # Input: Select a file ----
-      fileInput("file1", "Choose CSV File",
-                multiple = TRUE,
-                accept = c("text/csv",
-                           "text/comma-separated-values, text/plain",
-                           ".csv")),
+               tabPanel("Tool",
+                        titlePanel("TB incident costing"),
 
-      # Horizontal line ----
-      tags$hr(),
+                        # Sidebar layout with input and output definitions ----
+                        sidebarLayout(
 
-      numericInput(label = "Number of incidents",
-                   value = 1,
-                   inputId = "nincid"),
+                          # Sidebar panel for inputs ----
+                          sidebarPanel(
 
-      selectInput("site", "Site:",
-                  c("School" = "school",
-                    "Workplace" = "workplace",
-                    "Other" = "other")),
+                            # Input: Select a file ----
+                            fileInput("file1", "Choose CSV File",
+                                      multiple = TRUE,
+                                      accept = c("text/csv",
+                                                 "text/comma-separated-values, text/plain",
+                                                 ".csv")),
 
-      sliderInput(inputId = "pRAphone",
-                  label = "Proportion of Risk Assessment by phone:",
-                  min = 0, max = 1, value = 0.5),
+                            # Horizontal line ----
+                            tags$hr(),
 
-      sliderInput(inputId = "pScreenIMM",
-                  label = "Proportion screening events following an Incident Management Meeting:",
-                  min = 0, max = 1, value = 0.5),
+                            numericInput(label = "Number of incidents",
+                                         value = 1,
+                                         inputId = "nincid"),
 
-      sliderInput(inputId = "pScreensite",
-                  label = "Proportion site visit of screening events:",
-                  min = 0, max = 1, value = 0.5),
+                            selectInput("site", "Site:",
+                                        c("School" = "school",
+                                          "Workplace" = "workplace",
+                                          "Other" = "other")),
 
-      radioButtons(inputId = "testtype", label = "Type of test:",
-                   choices = c("IGRA" = "igra", "TST" = "tst")),
+                            sliderInput(inputId = "pRAphone",
+                                        label = "Proportion of Risk Assessment by phone:",
+                                        min = 0, max = 1, value = 0.5),
 
-      radioButtons(inputId = "location", label = "Location:",
-                   choices = c("London" = "london", "Birmingham" = "birmingham"))
+                            sliderInput(inputId = "pScreenIMM",
+                                        label = "Proportion screening events following an Incident Management Meeting:",
+                                        min = 0, max = 1, value = 0.5),
 
-    ),
+                            sliderInput(inputId = "pScreensite",
+                                        label = "Proportion site visit of screening events:",
+                                        min = 0, max = 1, value = 0.5),
 
-    # Main panel for displaying outputs ----
-    mainPanel(
+                            radioButtons(inputId = "testtype", label = "Type of test:",
+                                         choices = c("IGRA" = "igra", "TST" = "tst")),
 
-      # Output: Tabset w/ plot, summary, and table ----
-      tabsetPanel(type = "tabs",
-                  tabPanel("Flow diagram",
-                           img(src = 'flowdiagram.png', width = "1000", align = "left")),
-                  tabPanel("Plot",
-                           downloadButton("save_plot", "Save Image"),
-                           plotOutput("plot")),
-                  tabPanel("Summary", verbatimTextOutput("summary")),
-                  tabPanel("Table counts",
-                           downloadButton("save_counts",
-                                          "Save Table"),
-                           tableOutput("dat")),
-                  tabPanel("Table costs",
-                           downloadButton("save_costs",
-                                          "Save Table"),
-                           tableOutput("datcost")),
-                  tabPanel("Uploaded data", tableOutput("contents"))
-      )
+                            radioButtons(inputId = "location", label = "Location:",
+                                         choices = c("London" = "london", "Birmingham" = "birmingham"))
 
-      # Output: Formatted text for caption ----
-      #h3(textOutput("caption")),
+                          ),
 
-      # Output: Plot of the requested variable against mpg ----
-      #plotOutput("mpgPlot")
+                          # Main panel for displaying outputs ----
+                          mainPanel(
 
+                            # Output: Tabset w/ plot, summary, and table ----
+                            tabsetPanel(type = "tabs",
+                                        tabPanel("Flow diagram",
+                                                 img(src = 'flowdiagram.png', width = "1000", align = "left")),
+                                        tabPanel("Plot",
+                                                 downloadButton("save_plot", "Save Image"),
+                                                 plotOutput("plot")),
+                                        tabPanel("Summary", verbatimTextOutput("summary")),
+                                        tabPanel("Table counts",
+                                                 downloadButton("save_counts",
+                                                                "Save Table"),
+                                                 tableOutput("dat")),
+                                        tabPanel("Table costs",
+                                                 downloadButton("save_costs",
+                                                                "Save Table"),
+                                                 tableOutput("datcost")),
+                                        tabPanel("Uploaded data", tableOutput("contents"))
+                            )
+
+                            # Output: Formatted text for caption ----
+                            #h3(textOutput("caption")),
+
+                            # Output: Plot of the requested variable against mpg ----
+                            #plotOutput("mpgPlot")
+
+                          ))
+               )
     )
   )
 )
