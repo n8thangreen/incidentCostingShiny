@@ -17,7 +17,9 @@ dat <-
          identified = `Total No identified`,
          screen = `Total No Screened`,
          latent = Latent,
-         incidents = 1)
+         incidents = 1,
+         setting = as.factor(setting),
+         year = as.integer(round(year, 0)))
 #
 # # annual total
 # # total number of individuals within each year and setting
@@ -118,9 +120,10 @@ server <- function(input, output) {
     }
   )
 
-  output$dat <- renderTable(
+  # output$dat <- renderTable(
+  output$dat <- renderDataTable(
     dat[, c("year", "setting", "Total No identified", "Total No Screened", "Latent", "p_screen", "p_ltbi")])
-  output$datcost <- renderTable(
+  output$datcost <- renderDataTable(
     dat[, c("year", "setting", "cost", "dcost_per_id", "dcost_per_screen", "dcost_per_ltbi")])
 
 }

@@ -11,9 +11,16 @@ shinyUI(
     navbarPage("Menu",
 
                tabPanel("Home", icon = icon("home"),
-                        jumbotron("TB incident costing", "text to show", buttonLabel = "Click Me")),
+                        jumbotron("TB incident costing tool",
+                                  "under development...",
+                                  button = FALSE
+                        ),
+                        img(src='NIHR-HPRU-resp-med.jpg', width = "200", align = "right"),
+                        img(src='imperial-default-logo.png', width = "200", align = "right"),
+                        img(src='nihr_signals.png', width = "400", align = "right")
+               ),
 
-               tabPanel("Tool",
+               tabPanel("Tool", icon = icon("wrench", lib = "glyphicon"),
                         titlePanel("TB incident costing"),
 
                         # Sidebar layout with input and output definitions ----
@@ -34,10 +41,13 @@ shinyUI(
 
                             numericInput(label = "Number of incidents",
                                          value = 1,
+                                         min = 1,
                                          inputId = "nincid"),
 
                             selectInput("site", "Site:",
-                                        c("School" = "school",
+                                        c("Commercial" = "commericial",
+                                          "Education" ="education",
+                                          "Healthcare" = "healthcare",
                                           "Workplace" = "workplace",
                                           "Other" = "other")),
 
@@ -70,16 +80,20 @@ shinyUI(
                                                  img(src = 'flowdiagram.png', width = "1000", align = "left")),
                                         tabPanel("Plot",
                                                  downloadButton("save_plot", "Save Image"),
+                                                 img(src = "placeholder-fig.png"),
                                                  plotOutput("plot")),
                                         tabPanel("Summary", verbatimTextOutput("summary")),
                                         tabPanel("Table counts",
                                                  downloadButton("save_counts",
                                                                 "Save Table"),
-                                                 tableOutput("dat")),
+                                                 # tableOutput("dat")),
+                                                 # DT::dataTableOutput("dat")),
+                                                 DT::DTOutput("dat")),
                                         tabPanel("Table costs",
                                                  downloadButton("save_costs",
                                                                 "Save Table"),
-                                                 tableOutput("datcost")),
+                                                 # tableOutput("datcost")),
+                                                 DT::DTOutput("datcost")),
                                         tabPanel("Uploaded data", tableOutput("contents"))
                             )
 
@@ -90,6 +104,9 @@ shinyUI(
                             #plotOutput("mpgPlot")
 
                           ))
+               ),
+               tabPanel("About", icon = icon("info-sign", lib = "glyphicon"),
+                        "TEXT HERE"
                )
     )
   )
