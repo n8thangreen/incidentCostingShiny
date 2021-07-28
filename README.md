@@ -31,6 +31,10 @@ library(incidentCostingShiny)
 
 ## Motivation
 
+An R costing tool was implemented in R from an origina Excel/VBA model.
+The R code is available [here](https://github.com/n8thangreen/tb.outbreak.costing).
+In order to make this model user-friendly to non-R programmer it has been implemented with a Shiny GUI. 
+
 ## Calculation
 
 ## License
